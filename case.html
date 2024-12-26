@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Case Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script></script>
+        <style>
+            body{
+                background-color: #121212;
+            }
+            h3{
+                position: relative;
+                top: 60px;
+                color: #bb86fc;
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                position: relative;
+                top: 40px;
+                color: white;
+            }
+            section{
+                background-color: rgb(255, 255, 255, 0.10);
+                width: 350px;
+                height: 250px;
+                border-radius: 15px;
+                position: relative;
+                top: 100px;
+                
+            }
+            section:hover{
+                box-shadow: 2px 2px 30px rgb(187, 134, 252,0.1);
+            }
+            input[type = "text"]{
+                position: relative;
+                width: 200px;
+                height: 30px;
+                left: 0px;
+                top: 50px;
+                border: none;
+                font-weight: 700;
+                background-color: #dfdede;
+                box-shadow: 2px 2px 30px rgb(187, 134, 252,0.3);
+            }
+
+
+            .btn{
+                width: 150px;
+                height: 40px;
+                border-radius: 10px;
+                position: relative;
+                top: 90px;
+                left: 0px;
+                border: none;
+                color: white;
+                font-weight: 600;
+                background-color: #BB86FC;
+                
+            }
+
+            .btn:hover{
+                background-color: #852eef;
+                box-shadow: 2px 2px 30px rgb(187, 134, 252,0.2);
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <h3>Case Converter</h3>
+            <section>
+                <p>Enter your String:</p>
+                <form name="form1">
+                    <input type="text" name="txt" class="txt" >
+                </form>
+                <input type="button" class="btn" value="CONVERT" onclick="convert()" >
+            </section>
+        </center>
+    </body>
+</html>
